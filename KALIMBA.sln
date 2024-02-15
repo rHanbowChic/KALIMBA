@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34114.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KALIMBA", "KALIMBA\KALIMBA.csproj", "{EBAFBD1A-6D84-456F-A2F1-33DF2AB30FCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBAFBD1A-6D84-456F-A2F1-33DF2AB30FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBAFBD1A-6D84-456F-A2F1-33DF2AB30FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBAFBD1A-6D84-456F-A2F1-33DF2AB30FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBAFBD1A-6D84-456F-A2F1-33DF2AB30FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EA6A064-2624-4DAB-8E16-B650FDACF333}
+	EndGlobalSection
+EndGlobal
