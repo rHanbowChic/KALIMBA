@@ -1,0 +1,50 @@
+@keyframes k1 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-960px, 0, 0);
+    }
+}
+@keyframes k2 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(960px, 0, 0);
+    }
+}
+body {
+    margin: 0;
+    margin-left: -100vw;
+    overflow: hidden;
+}
+#kalimba1 {
+    height: 50vh;
+    width: 200%;
+    background-color: #000;
+    display: flex;
+}
+#kalimba2 {
+    height: 50vh;
+    width: 200%;
+    background-color: #000;
+    display: flex;
+}
+span {
+    display: inline-block;
+}
+.kalimba1 {
+    background: url(kalimba1.png);
+    height: 210px;
+    margin: auto 0;
+    flex-basis: 100%;
+    animation: 4s k1 linear infinite normal;
+}
+.kalimba2 {
+    background: url(kalimba2.png);
+    height: 210px;
+    margin: auto 0;
+    flex-basis: 100%;
+    animation: 4s k2 linear infinite normal;
+}

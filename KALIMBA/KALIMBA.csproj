@@ -251,6 +251,12 @@
   <ItemGroup>
     <None Include="Resources\kalimba.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="res\index.css" />
+    <Content Include="res\index.html" />
+    <Content Include="res\kalimba1.png" />
+    <Content Include="res\kalimba2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Web.WebView2.1.0.2277.86\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.2277.86\build\Microsoft.Web.WebView2.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
